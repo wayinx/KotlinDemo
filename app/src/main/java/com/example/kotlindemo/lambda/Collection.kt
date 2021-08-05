@@ -14,7 +14,7 @@ fun main() {
 }
 
 fun list() {
-    val list = listOf("Apple", "Banana", "Orange", "pear", "Grape")
+    val list = listOf("Apple", "Banana", "Orange", "Pear", "Grape")
     for (fruit in list) {
         println(fruit)
     }
@@ -22,7 +22,7 @@ fun list() {
 }
 
 fun mutableList() {
-    val list = mutableListOf("Apple", "Banana", "Orange", "pear", "Grape")
+    val list = mutableListOf("Apple", "Banana", "Orange", "Pear", "Grape")
     list.add("Watermelon")
     for (fruit in list) {
         println(fruit)
@@ -31,7 +31,7 @@ fun mutableList() {
 }
 
 fun set() {
-    val set = setOf("Apple", "Banana", "Orange", "pear", "Grape")
+    val set = setOf("Apple", "Banana", "Orange", "Pear", "Grape")
     for (fruit in set) {
         println(fruit)
     }
@@ -39,7 +39,7 @@ fun set() {
 }
 
 fun mutableSet() {
-    val set = mutableSetOf("Apple", "Banana", "Orange", "pear", "Grape")
+    val set = mutableSetOf("Apple", "Banana", "Orange", "Pear", "Grape")
     set.add("Watermelon")
     for (fruit in set) {
         println(fruit)
@@ -66,7 +66,7 @@ fun mutableMap() {
 
 //最长的水果单词
 fun maxLengthFruit() {
-    val list = listOf("Apple", "Banana", "Orange", "pear", "Grape")
+    val list = listOf("Apple", "Banana", "Orange", "Pear", "Grape")
 
     //普通写法
     val lambda = { fruit: String -> fruit.length }
@@ -89,7 +89,7 @@ fun maxLengthFruit() {
 }
 
 fun apiDemo() {
-    val list = listOf("Apple", "Banana", "Orange", "pear", "Grape")
+    val list = listOf("Apple", "Banana", "Orange", "Pear", "Grape")
     var newList = list.map { it.uppercase() }
     for (fruit in newList) {
         println(fruit)
